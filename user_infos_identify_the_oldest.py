@@ -29,3 +29,5 @@ def oldest(user_infos): #new variable
         if another_user["user_age"] > oldest_user["user_age"]:
             oldest_user = another_user
     return oldest_user
+oldest_user = oldest(user_infos)
+print(f"the oldest user is {oldest_user['user_name']} with the age of {oldest_user['user_age']} years old.") 
