@@ -17,3 +17,8 @@ while True:
 
     print("User's informations")
     print(user_infos) #the program continues to ask without stopping. 
+
+#asking the user to continue inserting another infos or not
+    retry = input("Do you want to insert another infos? Yes or no.")
+    if retry =="no":
+        break
